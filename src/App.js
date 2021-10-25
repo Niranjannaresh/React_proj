@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import React from 'react';
+
+// import List from './components/List';
+// import Footer from './components/Footer';
+// import TestProps from './components/TestProps';
+import FormInput from './components/FormInput';
+// import {DataProvider} from './components/DataProvider'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    
+      // <div className="App">
+       <div className="container" >
+       <h1>TO DO LIST</h1>
+       <FormInput />
+       {/* <TestProps title="Testing props" text="Text input props"/> */}
+       </div>
+      // </div>
+      
+  ); 
 }
 
 export default App;
